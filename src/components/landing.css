@@ -2,10 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Bodoni Mono', serif;
+    background-image: url('C:\Users\MikeF\soilmate_welcome\src\assests\welcome-floral-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     padding: 50px 20px;
     text-align: center;
     position: relative; /* Add position relative */

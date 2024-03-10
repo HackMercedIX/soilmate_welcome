@@ -8,27 +8,38 @@ body, html {
     background-repeat: no-repeat;
 }
 
-.hero {
-    /* background-color: #f0f0f0; */
-    padding: 50px 20px;
+.header {
     text-align: center;
-    position: relative; /* Add position relative */
-    z-index: 1; /* Add z-index */
+    padding: 1px 0 1px; /* Adjust padding as needed (reduce bottom padding) */
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: -60px; /* Adjust margin to move the logo up */
+    margin-top: -170px; /* Adjust margin */
+}
+
+
+
+.hero {
+    padding: 200px 20px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content h1 {
     margin: 0;
-    font-size: 5.0rem;
+    font-size: 4.5rem;
     color: #333;
     font-family: 'Bodoni Mono', serif;
-
 }
 
 .hero-content p {
     font-size: 1.25rem;
     color: #666;
     font-family: 'Bodoni Mono', serif;
-
 }
 
 .hero-cta {
@@ -45,8 +56,8 @@ body, html {
 .features {
     padding: 50px;
     text-align: center;
-    position: relative; /* Add position relative */
-    z-index: 0; /* Add z-index */
+    position: relative;
+    z-index: 0;
 }
 
 .feature-list {
@@ -57,14 +68,19 @@ body, html {
 
 .feature {
     width: 30%;
-    min-width: 200px;
+    min-width: 400px;
     margin-top: 20px;
-    position: relative; /* Add position relative */
+    position: relative;
     font-family: 'Bodoni Moda', serif;
 }
 
 .feature h3 {
     margin-top: 0;
+}
+
+.features h2 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-top: -20px;
 }
 
 body {
@@ -73,7 +89,7 @@ body {
     padding: 0;
     height: 100vh;
     background-color: #f0f0f0;
-    position: relative; /* Add position relative */
+    position: relative;
 }
 
 .chat-container {
@@ -92,14 +108,7 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-.chat-header {
-    background-color: #4CAF50;
     font-weight: bold;
-    color: white;
-    padding: 20px;
-    text-align: center;
 }
 
 .chat-messages {
@@ -135,13 +144,18 @@ body {
     background-color: #45a049;
 }
 
-@media (max-width: 600px) {
-    .feature-list {
-        flex-direction: column;
-        align-items: center;
-    }
+/* New styles for feature boxes */
+.features .feature {
+    width: calc(20% - 15px);
+    min-width: 350px;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
 
-    .feature {
-        width: 80%;
-    }
+.features .feature:hover {
+    transform: translateY(-5px);
 }

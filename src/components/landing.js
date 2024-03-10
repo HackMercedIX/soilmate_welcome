@@ -3,22 +3,11 @@ import './landing.css'
 
 function Landing(){
     return(
-    <body>
-        <header>
-            <nav class="navbar">
-                <div class="logo">AI Chat</div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#" class="cta">Try Now</a></li>
-                </ul>
-            </nav>
-        </header>
+    <body>        
         <section class="hero">
             <div class="hero-content">
-                <h1>Welcome to AI Chat</h1>
-                <p>The next generation of AI communication.</p>
+                <h1>Welcome to SoilMates</h1>
+                <p>The best AI-powered gardening buddy to have.</p>
                 <a href="#" class="hero-cta">Get Started</a>
             </div>
         </section>
@@ -26,16 +15,19 @@ function Landing(){
             <h2>Features</h2>
             <div class="feature-list">
                 <div class="feature">
-                    <h3>Intelligent Conversations</h3>
-                    <p>Experience smarter dialogues with AI that understands context and nuances.</p>
+                    <h3>Accessible Plant Database</h3>
+                    <p>Find the perfect plants effortlessly with our intuitive search feature. Simply enter your criteria, and we'll do the rest!
+</p>
                 </div>
                 <div class="feature">
-                    <h3>24/7 Availability</h3>
-                    <p>Your AI companion is available anytime to assist with inquiries, tasks, or just a chat.</p>
+                    <h3>Straightforward</h3>
+                    <p>Discover the joy of gardening with our effortlessly intuitive platform. Simple browsing, stunning results
+</p>
                 </div>
                 <div class="feature">
-                    <h3>Privacy First</h3>
-                    <p>We prioritize your privacy and ensure all conversations are securely managed.</p>
+                    <h3>AI-Powered Expertise</h3>
+                    <p>Get expert gardening advice instantly with our AI chatbot! Say goodbye to uncertainties and hello to hassle-free gardening.
+</p>
                 </div>
             </div>
         </section>
